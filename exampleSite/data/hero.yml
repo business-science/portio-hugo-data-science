@@ -1,13 +1,15 @@
 ---
 enable: true
-topTitle: Hello, I am Natasha
+topTitle: Data Scientist, Trainer & Mentor
 content: >
-  # I am here for your personal business
+  # Hi I'm Matt
 
-  Enjoy team diversity and increase their networks among others people
-  in various fields by
-buttonName: Contact me
-buttonURL: contact
-image: images/hero/2960351.jpg
-videoThumb: images/hero/popup-thumb.png
-videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  Matt is the founder of [Business Science](https://www.business-science.io/), 
+  an online data science school 
+  that helps students become a data scientist in 6-months or less.
+buttonName: Contact Matt
+buttonIcon: 'fa fa-envelope'
+buttonURL: "#contact"
+image: images/hero/user-picture-2.jpg
+videoThumb: images/hero/data-science.gif
+videoURL: https://www.youtube.com/watch?v=rJawNrD3xlU

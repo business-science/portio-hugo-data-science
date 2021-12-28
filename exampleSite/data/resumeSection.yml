@@ -2,57 +2,71 @@
 enable: true
 topTitle: My Resume
 title: >
-  ## My Expertises
+  ## My Experience & Education
 
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore  
+  Over 15+ years of experience working with companies from all over the world.
 
+buttonName: "Download Resume PDF"
+buttonTarget: "/cv/resume-matt.pdf"
 
-  Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
-tab1Name: Education
-tab2Name: Experiences
-tab1Target: education
-tab2Target: experience
+tab1Name: Experience
+tab2Name: Education
+tab1Target: experience
+tab2Target: education
 
-education:
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
 
 experience:
   - content: >
-      #### Umbrella co. 
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016-Present
+  
+      ### Founder
+      
+      #### [Business Science](https://www.business-science.io/) 
+      
+      - Has grown the program to __3000+ students__ learning R and Python for business.
+      
+      - Leads the data science curriculum development. 
+      
+      - Mentors students leading to getting jobs and career-advancement. (See [Testimonials](#testimonial))
+    time: 2018-Present
   - content: >
-      #### Aperture Science 
+      ### Director of Product Engineering & Market Development
+      
+      #### Bonney Forge
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2010-2016
+      - Used predictive analytics to increase revenue from __$3M/year to $15M/year (5X increase).__
+    time: 2017-2018
   - content: >
-      #### ACME Inc. 
+      ### Manager of Sales Engineering 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2005-2010
+      #### Bonney Forge
+
+      - Developed lead-scoring prediction solution that helped to __increase revenue 5X.__ 
+      
+      - Implemented database to track sales quotations & Shiny Web App interface for user input.
+      
+      - Trained technical sales team on how to input database via Shiny App
+      
+      - Used machine learning to predict likelihood of purchase (LOP)
+    time: 2014-2017
+  
+
+
+education:
   - content: >
-      #### LexCorp 
+      #### Master of Business Administration (MBA)
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2001-2005
+      Penn State University
+      
+    time: 2015
+  - content: >
+      #### Master of Industrial Engineering
+
+      University of Pittsburgh
+    
+    time: 2010
+  - content: >
+      #### Bachelor of Mechanical Engineering
+
+      Penn State University
+    time: 2006
+  

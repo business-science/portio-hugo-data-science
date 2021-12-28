@@ -1,6 +1,6 @@
 {{ with .Site.Data.testimonialSection }}
 {{ if .enable }}
-<section class="section testimonial">
+<section class="section testimonial" id = "testimonial">
     <div class="testimonial__background_shape">
         <svg viewBox="0 0 1920 79">
             <path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
@@ -21,6 +21,7 @@
                     {{ $section := .testimonial }}
                     {{ range $section }}
                     <div class="testimonial__slider_item">
+                        <img class="img rounded-circle float-right" src="{{ .image }}" alt="" style='max-width:30%;'/>
                         {{ if .star }}
                         <ul class="testimonial__slider_item-rating">
                             {{ $rating := .star | int }}
@@ -35,7 +36,8 @@
                         </ul>
                         {{ end }}
                         <p class="testimonial__slider_item-content"> {{ .comment | markdownify }} </p>
-                        <p class="testimonial__slider_item-author"><span>{{ .name }}</span> | {{ .time }}</p>
+                        <p class="testimonial__slider_item-author"><span>{{ .name }}</span> | {{ .title }}</p>
+                        
                     </div>
                     {{ end }}
                 </div>

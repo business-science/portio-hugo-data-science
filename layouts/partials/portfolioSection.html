@@ -15,13 +15,16 @@
         <div class="portfolio-item-grid">
           {{ range (where $.Site.RegularPages "Type" "portfolio").Reverse }}
           <div class="portfolio-item">
-            <img src="{{ .Params.thumbnail }}" class="portfolio-item-thumb" alt="portfolio-thumb" />
+            <a href="{{ .Permalink }}">
+              <img src="{{ .Params.thumbnail }}" class="portfolio-item-thumb" alt="portfolio-thumb" />
+            </a>
             <div class="portfolio-item-content">
               <span>{{ .Params.service }}</span>
               <h3 class="mb-0">
                 <a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
               </h3>
-              <a class="see-more-btn" href="{{ .Permalink }}">See details</a>
+              <br />
+              <a class="see-more-btn" href="{{ .Permalink }}"><strong>The Challenge:</strong> {{ .Params.challenge | truncate 60 }} (Read more) </a>
             </div>
           </div>
           {{ end }}
