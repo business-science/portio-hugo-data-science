@@ -25,6 +25,9 @@ sections:
 - type: document
   path: data/blogSection.yml
   label: Blog Section
+- type: document
+  path: data/contactSection.yml
+  label: Contact Section
 - type: directory
   path: content/portfolio
   label: Portfolio
